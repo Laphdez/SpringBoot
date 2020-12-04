@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Titulo de la pestaña</title>
+</head>
+<body>
+	<h2 th:text="${saludo}">Hola Mundo!</h2>					<!-- Para que ponga aquí el nombre tiene que ser la ruta localhost:9009/saludo/Luismi -->
+	<h3 th:text="${'Hola ' + nombre}">Hola Mundo!!</h3>		<!-- Para que ponga aquí el nombre tiene que ser la ruta localhost:9009/saludo/?name=Luismi -->
+	<h4 th:text="${'Hola ' + nombreCompleto}">Hola Mundo!!!</h4>
+
+</body>
+</html>
