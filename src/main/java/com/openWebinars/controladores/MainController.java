@@ -11,12 +11,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-	/* Prueba 2 de hola mundo
+	// Prueba 2 de hola mundo
 	@GetMapping("/")
 	public String welcome() {
 		return "index";
 	}
-	*/
 	
 	/**
 	 * Poniendo en el navegador localhost:9009/index
